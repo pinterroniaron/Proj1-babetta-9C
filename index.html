@@ -15,136 +15,200 @@
     <title>Babetta rajongói oldal</title>
     <script></script>
   </head>
-  <body>
+  <body background="képek/bg2.jpg">
     <div id="Navbar"></div>
-    <div id="demo" class="carousel slide w-25" data-bs-ride="carousel">
-      <!-- Indicators/dots -->
-      <div class="carousel-indicators">
+    <div
+      style="
+        padding: 10px 10px 57px 10px;
+        background-color: rgba(0, 0, 0, 0.9);
+        color: white;
+      "
+    >
+      <div
+        id="demo"
+        class="carousel slide w-25"
+        data-bs-ride="carousel"
+        style="float: left; padding: 15px"
+      >
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="5"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="6"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="7"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="8"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="9"
+          ></button>
+        </div>
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="képek/babetta1.jpg"
+              alt="Los Angeles"
+              class="d-block"
+              style="width: 100%"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="képek/babetta2.jpg"
+              alt="Chicago"
+              class="d-block"
+              style="width: 100%"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="képek/babetta3.jpg"
+              alt="New York"
+              class="d-block"
+              style="width: 100%"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="képek/babetta4.jpg"
+              alt="New York"
+              class="d-block"
+              style="width: 100%"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="képek/babetta6.jpg"
+              alt="Chicago"
+              class="d-block"
+              style="width: 100%"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="képek/babetta7.jpg"
+              alt="New York"
+              class="d-block"
+              style="width: 100%"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="képek/babetta8.jpg"
+              alt="Chicago"
+              class="d-block"
+              style="width: 100%"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="képek/babetta9.jpg"
+              alt="New York"
+              class="d-block"
+              style="width: 100%"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="képek/babetta10.jpg"
+              alt="Chicago"
+              class="d-block"
+              style="width: 100%"
+            />
+          </div>
+        </div>
+        <!-- Left and right controls/icons -->
         <button
+          class="carousel-control-prev"
           type="button"
           data-bs-target="#demo"
-          data-bs-slide-to="0"
-          class="active"
-        ></button>
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
         <button
+          class="carousel-control-next"
           type="button"
           data-bs-target="#demo"
-          data-bs-slide-to="1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#demo"
-          data-bs-slide-to="3"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#demo"
-          data-bs-slide-to="4"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#demo"
-          data-bs-slide-to="5"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#demo"
-          data-bs-slide-to="6"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#demo"
-          data-bs-slide-to="7"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#demo"
-          data-bs-slide-to="8"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#demo"
-          data-bs-slide-to="9"
-        ></button>
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
       </div>
+      <script src="navbar.js"></script>
+      <div>
+        <p>Üdvözlünk az oldalunkon!</p>
+        <p>
+          Ezen az oldalon szeretnénk bemutatni neked/önnek a babettákat. Először
+          egy kis bevezetőt szeretnék tartani a Jawa Babetták történelméről.
+        </p>
+        <p>
+          A Jawa Babetta a Csehországban gyártott, klasszikus motoros kerékpár.
+          Az 1950-es években kezdték el a gyártását, és azóta is népszerű a régi
+          motoros kerékpárok rajongói körében. A Babetta kicsi, könnyű és
+          manőverezhető, ami nagyszerű választás a városi közlekedéshez.
+        </p>
+        <p>
+          A Jawa cég a második világháború után kezdte meg a motoros kerékpárok
+          gyártását, és a Babetta volt az egyik legelterjedtebb modelljük. A
+          Babetta egy egyszerű, de megbízható motoros kerékpár volt, amelyet
+          sokan használtak mindennapi közlekedési eszközként. Az idők folyamán
+          több verziót is megjelentettek belőle, és a Babetta különböző
+          módosításokkal készült változatai még ma is népszerűek a
+          kerékpárgyűjtők körében - ezekről az oldalon olvashatsz még -.
+        </p>
 
-      <!-- The slideshow/carousel -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="képek/babetta1.jpg"
-            alt="Los Angeles"
-            class="d-block"
-            style="width: 100%"
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="képek/babetta2.jpg"
-            alt="Chicago"
-            class="d-block"
-            style="width: 100%"
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="képek/babetta3.jpg"
-            alt="New York"
-            class="d-block"
-            style="width: 100%"
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="képek/babetta5.jpg"
-            alt="New York"
-            class="d-block"
-            style="width: 100%"
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="képek/babetta6.jpg"
-            alt="Chicago"
-            class="d-block"
-            style="width: 100%"
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="képek/babetta7.jpg"
-            alt="New York"
-            class="d-block"
-            style="width: 100%"
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="képek/babetta8.jpg"
-            alt="Chicago"
-            class="d-block"
-            style="width: 100%"
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="képek/babetta9.jpg"
-            alt="New York"
-            class="d-block"
-            style="width: 100%"
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="képek/babetta10.jpg"
-            alt="Chicago"
-            class="d-block"
-            style="width: 100%"
-          />
-        </div>
+        <p>
+          Az idők folyamán a Jawa cég sok más modellt is gyártott, de a Babetta
+          még mindig a cég egyik legikonikusabb terméke maradt. A Babetta
+          történelme a motoros kerékpárok történelmének fontos része, és a mai
+          napig sokan szeretik és használják őket. Azok számára, akik szeretik a
+          klasszikus dizájnt és a megbízhatóságot, a Jawa Babetta a tökéletes
+          választás.
+        </p>
       </div>
-
-      <!-- Left and right controls/icons -->
       <button
         class="carousel-control-prev"
         type="button"
