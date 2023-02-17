@@ -17,3 +17,7 @@ p {
   float: left;
   margin: 10px 15px 15px 10px;
 }
+
+a:checked {
+  color: red;
+}
