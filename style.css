@@ -1,3 +1,19 @@
 body {
   background-repeat: no-repeat;
+  background-size: cover;
+}
+.pbg {
+  padding: 10px 10px 57px 10px;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+
+p {
+  size: 10px;
+}
+
+.imgTransform {
+  width: 650px;
+  float: left;
+  margin: 10px 15px 15px 10px;
 }
