@@ -82,3 +82,12 @@ p {
   border: none;
   border-radius: 8em;
 }
+.footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+  margin: auto;
+  border: none;
+  border-radius: 2em;
+  width: 50%;
+}
