@@ -5,6 +5,9 @@ body {
   background-attachment: fixed;
   background-color: black;
 }
+p {
+  size: 9px;
+}
 .pbg {
   padding: 10px 10px 57px 10px;
   background-color: rgba(0, 0, 0, 0.8);
@@ -13,12 +16,8 @@ body {
   border-radius: 2em;
 }
 
-p {
-  size: 9px;
-}
-
 .imgTransform {
-  width: 650px;
+  width: 40%;
   float: left;
   margin: 10px 15px 15px 10px;
 }
