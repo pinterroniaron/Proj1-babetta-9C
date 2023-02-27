@@ -9,6 +9,8 @@ body {
   padding: 10px 10px 57px 10px;
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
+  border: none;
+  border-radius: 2em;
 }
 
 p {
@@ -60,6 +62,8 @@ p {
   width: 40%;
   background-color: rgba(0, 0, 0, 0.7);
   color: white;
+  border: none;
+  border-radius: 2em;
 }
 
 .sticky {
