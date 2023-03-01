@@ -84,15 +84,6 @@ p {
   border-radius: 8em;
   font-size: 1vw;
 }
-.footer {
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
-  text-align: center;
-  margin: auto;
-  border: none;
-  border-radius: 2em;
-  width: 50%;
-}
 
 #reset {
   font-family: sans-serif;
@@ -107,4 +98,17 @@ p {
 }
 #reset:hover {
   background-color: #38a;
+}
+
+#mediatar > div > img {
+  object-position: 50% 0%;
+  width: calc(400);
+  height: calc(225);
+  object-fit: cover;
+}
+
+#mediatarr > div{
+  width: 30%;
+  height: auto;
+  margin: auto;
 }
