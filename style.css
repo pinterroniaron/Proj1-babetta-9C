@@ -7,6 +7,7 @@ body {
 }
 p {
   font-size: 1vw;
+  text-align: justify;
 }
 .pbg {
   padding: 10px 10px 10px 10px;
