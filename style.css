@@ -10,7 +10,7 @@ p {
   text-align-last: left;
 }
 .pbg {
-  padding: 10px 10px 10px 10px;
+  padding: 0.5vw;
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
   border: none;
@@ -20,7 +20,7 @@ p {
 .imgTransform {
   width: 40%;
   float: left;
-  margin: 10px 15px 15px 10px;
+  margin: 0.5vw 0.5vw 0.5vw 0.5vw;
 }
 
 .h1 {
@@ -59,7 +59,7 @@ p {
 
 .pbgq {
   margin: auto;
-  width: 40%;
+  width: 30vw;
   background-color: rgba(0, 0, 0, 0.7);
   color: white;
   border: none;
@@ -69,13 +69,13 @@ p {
 .sticky {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100vw;
   float: none;
-  left: 50%;
+  left: 50vw;
   transform: translate(-50%, -50%);
 }
 .sticky + .content {
-  padding-top: 60px;
+  padding-top: 60vw;
 }
 #navbar {
   overflow: hidden;
@@ -104,11 +104,11 @@ p {
 }
 
 #mediatarr > div{
-  width: 70%;
+  width: 70vw;
   height: auto;
   margin: auto;
 }
 
 img {
-  border-radius: 3em;
+  border-radius: 2vw;
 }
