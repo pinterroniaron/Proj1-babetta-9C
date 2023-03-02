@@ -6,8 +6,8 @@ body {
   background-color: black;
 }
 p {
-  font-size: 1vw;
-  text-align: justify;
+
+  text-align-last: left;
 }
 .pbg {
   padding: 10px 10px 10px 10px;
@@ -26,7 +26,6 @@ p {
 .h1 {
   color: white;
   background-color: rgba(0, 0, 0, 0.8);
-  font-size: 1.5vw;
 }
 .h1bg {
   text-align: center;
@@ -65,7 +64,6 @@ p {
   color: white;
   border: none;
   border-radius: 2em;
-  font-size: 1vw;
 }
 
 .sticky {
@@ -83,16 +81,6 @@ p {
   overflow: hidden;
   border: none;
   border-radius: 8em;
-  font-size: 1vw;
-}
-.footer {
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
-  text-align: center;
-  margin: auto;
-  border: none;
-  border-radius: 2em;
-  width: 50%;
 }
 
 #reset {
@@ -108,4 +96,19 @@ p {
 }
 #reset:hover {
   background-color: #38a;
+}
+
+#mediatar > div > img {
+  object-position: 50% 0%;
+  object-fit: cover;
+}
+
+#mediatarr > div{
+  width: 70%;
+  height: auto;
+  margin: auto;
+}
+
+img {
+  border-radius: 3em;
 }
